@@ -6,12 +6,12 @@ import com.github.javaparser.ast.expr.AssignExpr;
 import com.github.javaparser.ast.expr.SimpleName;
 import com.github.javaparser.ast.expr.VariableDeclarationExpr;
 import org.junit.jupiter.api.Test;
+import school.mjc.stage0.module3.task3.task3.DeclaringVars;
 import school.mjc.test.BaseIOTest;
 import school.mjc.test.JavaFileSource;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static school.mjc.parser.Asserts.assertVariablesPrinted;
 
