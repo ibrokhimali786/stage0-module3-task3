@@ -6,10 +6,10 @@ import com.github.javaparser.ast.expr.Expression;
 import com.github.javaparser.ast.expr.MethodCallExpr;
 import com.github.javaparser.ast.type.PrimitiveType;
 import org.junit.jupiter.api.Test;
-import school.mjc.stage0.module3.task3.task3.ReassigningValues;
 import school.mjc.test.BaseIOTest;
 import school.mjc.test.JavaFileSource;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static school.mjc.parser.Asserts.assertVariablesPrinted;

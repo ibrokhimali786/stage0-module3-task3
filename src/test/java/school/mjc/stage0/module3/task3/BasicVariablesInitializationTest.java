@@ -4,7 +4,6 @@ import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.VariableDeclarator;
 import com.github.javaparser.ast.type.PrimitiveType;
 import org.junit.jupiter.api.Test;
-import school.mjc.stage0.module3.task3.task3.BasicVariablesInitialization;
 import school.mjc.test.BaseIOTest;
 import school.mjc.test.JavaFileSource;
 
